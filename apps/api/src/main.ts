@@ -13,6 +13,12 @@ app.get("/", (_req, res) => {
     res.json(user);
 })
 
+app.get("/insane", (_req, res) => {
+    res.status(418).json({
+        message: "ok"
+    })
+})
+
 app.listen(3333, () => {
     console.log(`🚀 App started on port 3333`)
 })
