@@ -4,6 +4,9 @@ const app = express();
 
 app.use(cors());
 
+/**
+ * does something
+ */
 app.get("/", (_req, res) => {
     const user: User = {
         foo: false,

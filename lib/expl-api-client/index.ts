@@ -7,6 +7,10 @@ class ApiClient {
         this._client.defaults.baseURL = "http://localhost:3333"
     }
 
+    /**
+     *
+     * @returns {Promise<T>}
+     */
     async getBase() {
         try {
             const {data} = await this._client.get<User>("/")
