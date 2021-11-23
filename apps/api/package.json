@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "ts-node --project ./tsconfig.app.json --files src/main.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}

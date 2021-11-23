@@ -1,0 +1,5 @@
+dist
+out
+bin
+node_modules
+.idea
