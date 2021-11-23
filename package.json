@@ -27,6 +27,8 @@
     "noCi": true
   },
   "devDependencies": {
+    "@semantic-release/commit-analyzer": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.2",
     "multi-semantic-release": "^2.11.0"
   }
 }

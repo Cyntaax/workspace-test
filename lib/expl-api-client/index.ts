@@ -16,6 +16,10 @@ class ApiClient {
             throw e;
         }
     }
+
+    async getSomething() {
+        return await this._client.get("/something")
+    }
 }
 
 const apiClient = new ApiClient()

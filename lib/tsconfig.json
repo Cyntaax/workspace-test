@@ -2,6 +2,7 @@
   "extends": "../tsconfig.base.json",
   "include": [
     "./**/*.ts",
-    "../@types/general.d.ts"
+    "../@types/general.d.ts",
+    "../typings/general.d.ts"
   ]
 }
